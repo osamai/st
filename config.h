@@ -218,7 +218,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_a,           changealpha,    {.f = +0.05} },
 	{ MODKEY|ShiftMask,     XK_A,           changealpha,    {.f = -0.05} },
 	{ MODKEY,               XK_l,           externalpipe,   {.v = copyurlcmd } },
-	{ MODKEY|ShiftMask,     XK_l,           externalpipe,   {.v = openurlcmd } },
+	{ MODKEY|ShiftMask,     XK_L,           externalpipe,   {.v = openurlcmd } },
 	{ MODKEY,               XK_o,           externalpipe,   {.v = copyoutputcmd } },
 };
 
