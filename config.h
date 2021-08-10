@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "IBM Plex Mono:pixelsize=17.7:antialias=true:autohint=true";
+static char *font = "IBM Plex Mono:pixelsize=17.7:antialias=true:autohint=true:style=SemiBold";
 static char *font2[] = {
 	"Amiri:pixelsize=17.7:antialias=true:autohint=true:style=Regular",
 	"Symbola:pixelsize=20:antialias=true:autohint=true",
