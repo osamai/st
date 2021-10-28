@@ -240,6 +240,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_l,           externalpipe,   {.v = copyurlcmd } },
 	{ MODKEY|ShiftMask,     XK_L,           externalpipe,   {.v = openurlcmd } },
 	{ MODKEY,               XK_o,           externalpipe,   {.v = copyoutputcmd } },
+	{ MODKEY,               XK_backslash,   keyboard_select,{.i =  0} },
 };
 
 /*
